@@ -66,10 +66,28 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
+```
+#include <stdio.h>
+
+int main() {
+    int A;
+
+    printf("Enter a value for A: ");
+    scanf("%d", &A);
+
+    if (A > 0) {
+        printf("A is a positive number.\n");
+    } else {
+        printf("A is not a positive number.\n");
+    }
+
+    return 0;
+}
+```
 
 # OUTPUT:
 
-
+![Screenshot 2025-04-27 160916](https://github.com/user-attachments/assets/1afa7556-c569-4799-8e5a-ddbd31c99521)
 
 
 
@@ -100,11 +118,29 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+
+int main() {
+    float a, b, min;
+    
+    printf("Enter first number: ");
+    scanf("%f", &a);
+
+    printf("Enter second number: ");
+    scanf("%f", &b);
+
+    min = (a < b) ? a : b;
+
+    printf("The minimum number is: %.2f\n", min);
+
+    return 0;
+}
+```
 
 ## OUTPUT:
 
-
-
+![Screenshot 2025-04-27 161257](https://github.com/user-attachments/assets/dc6be431-edd3-4699-8802-2984868c0e8d)
 
 
 
@@ -131,18 +167,32 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+
+int main() {
+    int value;
+
+    printf("Enter a value: ");
+    scanf("%d", &value);
+
+    if (value == 1) {
+        printf("The value is equal to 1.\n");
+    }
+
+    return 0;
+}
+```
+
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/88b85eef-8f7c-4c57-b0c3-57c040f90bf7)
 
 
 
 
 
-
-
-
-	
 
 ## RESULT:
 Thus the program to check whether the input value is equal to 1 using simple if statement has been executed successfully
@@ -167,6 +217,8 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
+```
+
 
 ## OUTPUT:
 
